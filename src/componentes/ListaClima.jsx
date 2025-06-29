@@ -3,7 +3,7 @@ const ListaClima = ({ clima }) => {
     return <p className="text-center">No se encontraron datos aún</p>;
   }
   return (
-    <section className="text-center mt-3">
+    <section className="container bg-primary-subtle rounded text-center mt-3">
       <h3>
         Clima en {clima.name}, {clima.sys.country}
       </h3>
