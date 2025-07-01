@@ -30,7 +30,7 @@ const Formulario = () => {
 
     if (!paisCodigo) {
       alert(
-        "País no reconocido. Ingresá el nombre o código ISO válido (ej: AR, Argentina)."
+        "País no reconocido. Ingresá el nombre o código ISO válido (ej: AR, Argentina | PE, Perú)."
       );
       return;
     }
